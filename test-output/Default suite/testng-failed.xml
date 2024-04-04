@@ -3,16 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG.Assignment">
+      <class name="testNG.Priority">
         <methods>
-          <include name="openBrowser"/>
-          <include name="login"/>
-          <include name="test_OrangeHRM_PIM_Update"/>
-          <include name="logout"/>
-          <include name="test_OrangeHRM_PIM_Delete"/>
-          <include name="closingBrowser"/>
+          <include name="openOrangeHRM"/>
         </methods>
-      </class> <!-- testNG.Assignment -->
+      </class> <!-- testNG.Priority -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
