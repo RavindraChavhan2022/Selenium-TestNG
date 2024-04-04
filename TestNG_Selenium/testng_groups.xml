@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Banking Suite">
+	<test name="Regression Testing">
+		<groups>
+			<run>
+				<include name="Smoke" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testNG.Shopping" />      <!-- comment syntax -->
+			<class name="testNG.Loan_Dept" />
+			<class name="testNG.ATM" />
+		</classes>
+	</test>
+</suite>
+
+<!-- 
+  Using groups annotation, we can able to run specific tests as a group from different types of test cases(classes)
+-->

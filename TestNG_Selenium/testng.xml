@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Banking Suite">
+	<test name="E_commerce Test">
+		<classes>
+			<class name="testNG.Shopping">      <!-- comment syntax -->
+				<methods>
+					<include name="Create_Account" />   <!-- It will include only this method & excluding remaining -->
+				</methods>
+			</class>
+			<class name="testNG.Loan_Dept">
+				<methods>
+					<exclude name="take_Car_Loan" />  <!-- It will exclude only this method -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="ATM Test">
+		<classes>
+			<class name="testNG.ATM">
+				<methods>
+					<exclude name="ATM.*" />  <!-- It will exclude all methods starting with ATM name -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
+
+<!-- To exclude number of tests with same starting name use <exclude
+name="starting name.*"
+Example-> <exclude name = "ATM.*" />
+
+-->

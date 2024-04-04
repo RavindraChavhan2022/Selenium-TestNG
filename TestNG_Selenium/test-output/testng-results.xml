@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="11" total="15" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-04T08:05:08Z" name="Banking Suite" finished-at="2024-04-04T08:05:08Z" duration-ms="125">
+    <groups>
+    </groups>
+    <test started-at="2024-04-04T08:05:08Z" name="E_commerce Test" finished-at="2024-04-04T08:05:08Z" duration-ms="22">
+      <class name="testNG.Shopping">
+        <test-method signature="Create_Account()[pri:0, instance:testNG.Shopping@41fbdac4]" started-at="2024-04-04T13:35:08Z" name="Create_Account" finished-at="2024-04-04T13:35:08Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Account -->
+      </class> <!-- testNG.Shopping -->
+    </test> <!-- E_commerce Test -->
+    <test started-at="2024-04-04T08:05:08Z" name="ATM Test" finished-at="2024-04-04T08:05:08Z" duration-ms="10">
+      <class name="testNG.Shopping">
+        <test-method is-config="true" signature="BSuite()[pri:0, instance:testNG.Shopping@41fbdac4]" started-at="2024-04-04T13:35:08Z" name="BSuite" finished-at="2024-04-04T13:35:08Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BSuite -->
+      </class> <!-- testNG.Shopping -->
+      <class name="testNG.ATM">
+        <test-method signature="Enter_Pin()[pri:0, instance:testNG.ATM@62150f9e]" started-at="2024-04-04T13:35:08Z" name="Enter_Pin" finished-at="2024-04-04T13:35:08Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enter_Pin -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testNG.ATM@62150f9e]" started-at="2024-04-04T13:35:08Z" name="setUp" finished-at="2024-04-04T13:35:08Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNG.ATM@62150f9e]" started-at="2024-04-04T13:35:08Z" name="tearDown" finished-at="2024-04-04T13:35:08Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testNG.ATM@62150f9e]" started-at="2024-04-04T13:35:08Z" name="setUp" finished-at="2024-04-04T13:35:08Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Insert_ATM()[pri:0, instance:testNG.ATM@62150f9e]" started-at="2024-04-04T13:35:08Z" name="Insert_ATM" finished-at="2024-04-04T13:35:08Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Insert_ATM -->
+        <test-method signature="Withdraw_Cash()[pri:0, instance:testNG.ATM@62150f9e]" started-at="2024-04-04T13:35:08Z" name="Withdraw_Cash" finished-at="2024-04-04T13:35:08Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Withdraw_Cash -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testNG.ATM@62150f9e]" started-at="2024-04-04T13:35:08Z" name="setUp" finished-at="2024-04-04T13:35:08Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNG.ATM@62150f9e]" started-at="2024-04-04T13:35:08Z" name="tearDown" finished-at="2024-04-04T13:35:08Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNG.ATM@62150f9e]" started-at="2024-04-04T13:35:08Z" name="tearDown" finished-at="2024-04-04T13:35:08Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="ASuite()[pri:0, instance:testNG.ATM@62150f9e]" started-at="2024-04-04T13:35:08Z" name="ASuite" finished-at="2024-04-04T13:35:08Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASuite -->
+      </class> <!-- testNG.ATM -->
+    </test> <!-- ATM Test -->
+  </suite> <!-- Banking Suite -->
+</testng-results>
