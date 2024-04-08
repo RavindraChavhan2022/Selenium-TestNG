@@ -27,6 +27,9 @@ public class Mouse_hover extends Base_Class {
 			action.moveToElement(menuList.get(i)).perform();
 		}
 
+		// hover on SwitchTo using Webtable
+		action.moveToElement(menuList.get(2), 100, 0).perform();
+
 		tearDown();
 	}
 
