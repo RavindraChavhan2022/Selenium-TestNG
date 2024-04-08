@@ -9,7 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Example1 {
+public class OrangeHRM {
 
 	public static void main(String[] args) throws IOException {
 		FileInputStream fis = new FileInputStream(".\\Property-File\\Test_Data.properties");
