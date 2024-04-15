@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-15T10:47:54 IST" name="Default suite" finished-at="2024-04-15T10:49:05 IST" duration-ms="71164">
+    <groups>
+    </groups>
+    <test started-at="2024-04-15T10:47:54 IST" name="Default test" finished-at="2024-04-15T10:49:05 IST" duration-ms="71164">
+      <class name="using_TestNG.Leaving_Certificate">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:using_TestNG.Leaving_Certificate@62379589]" started-at="2024-04-15T10:47:54 IST" name="setUp" finished-at="2024-04-15T10:48:18 IST" duration-ms="24184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLogin()[pri:1, instance:using_TestNG.Leaving_Certificate@62379589]" started-at="2024-04-15T10:48:18 IST" name="validateLogin" finished-at="2024-04-15T10:48:18 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method signature="navigate_And_select_Certificate_Type()[pri:2, instance:using_TestNG.Leaving_Certificate@62379589]" started-at="2024-04-15T10:48:18 IST" name="navigate_And_select_Certificate_Type" finished-at="2024-04-15T10:48:24 IST" duration-ms="5771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_And_select_Certificate_Type -->
+        <test-method signature="update_Remarks_And_Generate_Leaving_Certificate()[pri:3, instance:using_TestNG.Leaving_Certificate@62379589]" started-at="2024-04-15T10:48:24 IST" name="update_Remarks_And_Generate_Leaving_Certificate" finished-at="2024-04-15T10:48:39 IST" duration-ms="14380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_Remarks_And_Generate_Leaving_Certificate -->
+        <test-method signature="download_Certificate()[pri:4, instance:using_TestNG.Leaving_Certificate@62379589]" started-at="2024-04-15T10:48:39 IST" name="download_Certificate" finished-at="2024-04-15T10:49:05 IST" duration-ms="26212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- download_Certificate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:using_TestNG.Leaving_Certificate@62379589]" started-at="2024-04-15T10:49:05 IST" name="tearDown" finished-at="2024-04-15T10:49:05 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- using_TestNG.Leaving_Certificate -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
